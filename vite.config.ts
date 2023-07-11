@@ -5,11 +5,8 @@ import { name, version } from './package.json';
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
-  const isDev = mode === 'development';
-  const base = isDev ? '/' : `https://s.newscdn.cn/${name}/${version}/`;
   return {
     plugins: [react()],
-    base,
     build: {
       rollupOptions: {
         output: {
