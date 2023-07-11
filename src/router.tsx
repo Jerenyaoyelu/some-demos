@@ -40,16 +40,14 @@ const routes = [
 
 export const PageRouter: React.FC = () => {
   return (
-    <Router>
-      <Routes>
-        {
-          routes.map((route, index) => {
-            return (
-              <Route key={index} path={route.path} element={route.element} />
-            )
-          })
-        }
-      </Routes>
-    </Router>
+    <Routes>
+      {
+        routes.map((route, index) => {
+          return (
+            <Route key={index} path={route.path} element={route.element} />
+          )
+        })
+      }
+    </Routes>
   )
 }
