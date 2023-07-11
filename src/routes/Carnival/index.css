@@ -1,0 +1,13 @@
+.carnival {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.tips {
+  position: absolute;
+  left: 20px;
+  top: 30px;
+}
+.carnival h1 {
+  text-align: center;
+}

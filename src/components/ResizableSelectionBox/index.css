@@ -1,0 +1,13 @@
+.box-wrap {
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  z-index: 1;
+  /* box-sizing: border-box; */
+  top: calc(50% - 50px);
+  left: calc(50% - 40px);
+}
+
+.box-container {
+  position: relative;
+}

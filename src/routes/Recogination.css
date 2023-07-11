@@ -1,0 +1,15 @@
+.logsWrap {
+  height: 300px;
+  overflow-y: auto;
+}
+.content {
+  display: flex;
+  align-items: center;
+}
+.text-area {
+  border: 1px solid #333;
+}
+
+.img-area {
+  position: relative;
+}
